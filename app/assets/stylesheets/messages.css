@@ -3,7 +3,7 @@
 }
 
 .side-bar {
-  background-color: #253141;
+  background-color: #2F3E51;
   width: 300px;
   height: 100vh;
 }
@@ -11,12 +11,40 @@
 .side-bar__top {
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-create a {
+  color: deepskyblue;
+  font-size: 10px;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  padding: 14px;
 }
 
 .side-bar__chatroom {
   background-color: #2F3E51;
-  height: (100vh - 100px);
+  height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.chatroom {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color: white;
+  text-decoration: none;
 }
 
 .chat {
