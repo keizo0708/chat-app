@@ -1,6 +1,6 @@
 <div class="side-bar__top">
   <div class="user-name">
-    <a href="">Tom</a>
+    <%= link_to current_user.name, edit_user_path(current_user) %>
   </div>
   <div class="chat-create">
     <a href="">チャットを作成する</a>
@@ -8,31 +8,6 @@
 </div>
 
 <div class="side-bar__chatroom">
-  <div class="chatroom">
-    <div class="room-name">
-      <a href="#">techroom1</a>
-    </div>
-  </div>
-  <div class="chatroom">
-    <div class="room-name">
-      <a href="#">techroom1</a>
-    </div>
-  </div>
-  <div class="chatroom">
-    <div class="room-name">
-      <a href="#">techroom1</a>
-    </div>
-  </div>
-  <div class="chatroom">
-    <div class="room-name">
-      <a href="#">techroom1</a>
-    </div>
-  </div>
-  <div class="chatroom">
-    <div class="room-name">
-      <a href="#">techroom1</a>
-    </div>
-  </div>
   <div class="chatroom">
     <div class="room-name">
       <a href="#">techroom1</a>
